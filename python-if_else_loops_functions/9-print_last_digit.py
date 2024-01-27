@@ -1,9 +1,9 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 
 def print_last_digit(number):
     if number < 0:
-        last = (((number) * (-1)) % 10)
+        num = (((number) * (-1)) % 10)
     else:
-        last = number % 10
-    print('{}'.format(last), end='')
-    return last
+        num = number % 10
+    print("{}".format(num), end="")
+    return num
