@@ -2,4 +2,4 @@
 
 
 for i in range(0, 99):
-    print(f'{i} = {i:#x}')
+    print('{} = {}'.format(i, hex(i)))
